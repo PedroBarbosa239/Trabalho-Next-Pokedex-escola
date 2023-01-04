@@ -1,0 +1,53 @@
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em 1em;
+    margin-bottom: 2em;
+    width: 20%;
+    border-radius: 1em;
+    border: 2px solid red;
+    box-shadow: 3px 3px 8px black ;
+    background-color: #fff;
+ 
+}
+
+.card .id{
+    margin: 1em 0;
+    background-color: #e33d33;
+    border-radius: 5px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card .name{
+    text-transform: capitalize;
+    margin-bottom: 1em;
+    font-size: 1.4em;
+
+}
+
+.card .detalhes{
+    text-decoration: none;
+    background-color: #fff ;
+    color: #222;
+    padding: 0.7em 1.2em;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.4s ;
+
+}
+
+.card .detalhes:hover{
+    background-color: #e33d33;
+    color:#fff;
+}
+
+.idsemdetalhe{
+    text-decoration: none;
+}

@@ -1,0 +1,29 @@
+.title_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+    margin-bottom: 2rem ;
+}
+
+.title {
+    margin-top: 6rem;
+    margin-bottom: 3rem ;
+    text-align: center;
+    color: #fff;
+    font-size: 2rem;
+}
+.pokemon_container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:  space-between;
+    align-items: center;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.pokemons {
+    margin-top: -5rem;
+    background-color: #4e3265;
+}
+

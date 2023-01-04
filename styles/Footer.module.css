@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+.texto {
+    font-family: Ubuntu;
+    font-size: 1.1rem;
+    font-weight:bold;
+    letter-spacing: 1.4px;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rodape{
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    border-top: 3px black solid;
+   
+}
